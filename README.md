@@ -16,5 +16,28 @@ C++ 11
 
 namespace
 
+# 整形
 
+- `unsigned long`
+- `long`
+- `unsigned int`
+- `int`
+- `unsigned short`
+- `short`
+- `char`
+- `unsigned char`
+- `signed char`
+- `bool`
+- `unsigned long long`
+- `long long`
+
+# 常量
+
+- `const`
+
+# 浮点类型
+
+- `float`
+- `double`
+- `long double`
 
