@@ -15,6 +15,7 @@ C++ 11
 # 类（class）
 
 - [类](./class/main.cpp)
+- [类模板](./class_template/main.cpp)
 
 # 命名空间
 
