@@ -1,6 +1,7 @@
 #include "User.h"
 
 User::User(int age, std::string name) {
+    age = calculateAge(age);
     m_age = age;
     name_ = name;
 }

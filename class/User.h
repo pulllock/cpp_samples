@@ -28,10 +28,19 @@ public:
     long getId();
     int getAge();
     std::string getName();
-
+    // inline类型函数
+    inline int calculateAge(int age);
     // 析构函数
     ~User();
 };
 
+// inline函数需要将函数定义和成员函数的定义都放在同一个头文件中
+inline int User::calculateAge(int age) {
+    if (age < 5) {
+        return 0;
+    }
+
+    return age;
+}
 
 #endif //CLASS_USER_H
